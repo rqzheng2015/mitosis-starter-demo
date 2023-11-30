@@ -1,0 +1,24 @@
+{
+  "name": "mitosis-starter-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mitosis build"
+  },
+  "keywords": ["mitosis", "starter", "guide"],
+  "author": "rickiezheng",
+  "license": "ISC",
+  "dependencies": {
+    "@builder.io/mitosis": "^0.0.136",
+    "@builder.io/mitosis-cli": "^0.0.95"
+  },
+  "devDependencies": {
+    "@builder.io/eslint-plugin-mitosis": "^0.0.15",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
